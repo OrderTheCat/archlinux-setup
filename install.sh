@@ -1,2 +1,11 @@
-#!/bin/sh
-mv ~/Downloads/archlinux-setup/kitty ~/.config/ && mv ~/Downloads/archlinux-setup/bash/.bashrc ~/ && rm -rf ~/Downloads/archlinux-setup
+#!/bin/bash
+
+# Move kitty config files
+mv ~/Downloads/archlinux-setup/kitty ~/.config/ &&
+
+# Move bash config files
+mv ~/Downloads/archlinux-setup/bash/.bashrc ~/ && 
+
+# Finally, delete the cloned folder
+rm -rf ~/Downloads/archlinux-setup &&
+echo "Done"
