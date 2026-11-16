@@ -32,4 +32,4 @@ You also may need to delete the **kitty** folder for the kitty terminal at ~/.co
 rm -rf ~/.config/kitty
 ```
 
-***(This will permanently delete all your kitty configuration!)***
+***(This will permanently delete all your kitty configurations!)***
